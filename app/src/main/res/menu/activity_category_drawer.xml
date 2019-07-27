@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_latest"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="@string/menu_home" />
+        <item
+            android:id="@+id/nav_category"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="@string/menu_gallery" />
+        <item
+            android:id="@+id/nav_gifs"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="@string/menu_slideshow" />
+        <item
+            android:id="@+id/nav_favrite"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="@string/menu_tools" />
+
+        <item
+            android:id="@+id/nav_RateApp"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Rate App" />
+        <item
+            android:id="@+id/nav_MoreApp"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="More App" />
+
+        <item
+            android:id="@+id/nav_AboutUs"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="About Us" />
+
+        <item
+            android:id="@+id/nav_setting"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Setting" />
+
+        <item
+            android:id="@+id/nav_privacy"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Privacy Police" />
+
+    </group>
+
+
+
+
+</menu>

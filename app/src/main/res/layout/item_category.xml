@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".CategoryActivity"
+    tools:showIn="@layout/app_bar_category"
+    app:cardCornerRadius="5dp"
+    app:cardElevation="5dp"
+
+    >
+    <ImageView
+        android:layout_width="match_parent"
+        android:id="@+id/imgBg"
+        android:layout_height="200dp"
+        android:src="@drawable/sutu"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="32dp"
+        android:id="@+id/txtvTitle"
+        android:text="Animal"/>
+
+
+
+</android.support.v7.widget.CardView>
+
+
+
+
+
